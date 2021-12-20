@@ -16,7 +16,7 @@ import cv2
 
 # Model is cached when loaded first time in order to use the object next time
 @st.cache(allow_output_mutation=True)
-def load_model(path = 'D:/BRAINSTER/Streamlit/best_model_mobile.pt'):
+def load_model(path = 'best_model_mobile.pt'):
     '''
     Loads pretrained model into memory.
     
